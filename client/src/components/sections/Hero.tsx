@@ -42,7 +42,7 @@ export function Hero() {
             className="relative w-full max-w-md mx-auto aspect-square overflow-hidden"
           >
             <img
-              src="https://avatars.githubusercontent.com/u/583231?v=4"
+              src="/components/img/myImage.jpg"
               alt="Professional headshot"
               className="w-full h-full object-cover rounded-lg shadow-xl"
             />
