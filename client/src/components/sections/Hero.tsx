@@ -17,8 +17,9 @@ export function Hero() {
               <span className="text-primary">& Solution Architect</span>
             </h1>
             <p className="text-muted-foreground text-lg mb-8">
-              Specialized in building scalable enterprise applications using React,
-              Java, and cloud technologies. Let's turn your vision into reality.
+              Specialized in building scalable enterprise applications using
+              React, Java, and cloud technologies. Let's turn your vision into
+              reality.
             </p>
             <div className="flex gap-4">
               <Button size="lg" asChild>
@@ -38,12 +39,12 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="relative aspect-square"
+            className="relative w-full max-w-md mx-auto aspect-square overflow-hidden"
           >
             <img
-              src="https://images.unsplash.com/photo-1576558656222-ba66febe3dec"
+              src="https://avatars.githubusercontent.com/u/583231?v=4"
               alt="Professional headshot"
-              className="rounded-lg object-cover shadow-xl"
+              className="w-full h-full object-cover rounded-lg shadow-xl"
             />
           </motion.div>
         </div>
