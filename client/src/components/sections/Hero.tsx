@@ -42,9 +42,12 @@ export function Hero() {
             className="relative w-full max-w-md mx-auto aspect-square overflow-hidden"
           >
             <img
-              src="https://replit.com/@Srkprasad9/professional-portfolio-react-showcase/raw/client/src/components/img/myImage.jpg"
+              src="https://replit.com/@Srkprasad9/professional-portfolio-react-showcase/raw/main/client/src/components/img/myImage.jpg"
               alt="Professional headshot"
               className="w-full h-full object-cover rounded-lg shadow-xl"
+              onError={(e) => {
+                e.currentTarget.src = "https://via.placeholder.com/400x400?text=Profile+Image";
+              }}
             />
           </motion.div>
         </div>
