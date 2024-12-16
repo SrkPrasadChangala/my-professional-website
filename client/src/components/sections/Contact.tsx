@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin, MapPin } from "lucide-react";
 
 export function Contact() {
   return (
@@ -22,20 +22,44 @@ export function Contact() {
         <div className="max-w-md mx-auto">
           <div className="space-y-6">
             <Button className="w-full" asChild>
-              <a href="mailto:your@email.com" className="flex items-center justify-center gap-2">
+              <a
+                href="mailto:sivaramakrishnaprasad10@gmail.com"
+                className="flex items-center justify-center gap-2"
+              >
                 <Mail className="h-4 w-4" />
                 Email Me
               </a>
             </Button>
             <div className="flex gap-4 justify-center">
               <Button variant="outline" size="icon" asChild>
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/SrkPrasadChangala"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Github className="h-4 w-4" />
                 </a>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.linkedin.com/in/siva-rama-krishna-prasad-changala-a3115a253/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Linkedin className="h-4 w-4" />
+                </a>
+              </Button>
+            </div>
+            <div className="text-center mt-6">
+              <Button variant="ghost" size="lg" asChild>
+                <a 
+                  href="https://www.google.com/maps/search/?api=1&query=Fairborn+OH+45324" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2"
+                >
+                  <MapPin className="h-4 w-4" />
+                  Fairborn, OH 45324
                 </a>
               </Button>
             </div>

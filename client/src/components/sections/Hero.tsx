@@ -14,7 +14,7 @@ export function Hero() {
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Full-Stack Developer <br />
-              <span className="text-primary">& Solution Architect</span>
+              <span className="text-primary">& Cloud Specialist</span>
             </h1>
             <p className="text-muted-foreground text-lg mb-8">
               Specialized in building scalable enterprise applications using
@@ -28,7 +28,10 @@ export function Hero() {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="/resume.pdf" download>
+                <a
+                  href="https://drive.google.com/file/d/11gEUGIgZbntW2M23Um2SRLZWzBrZkohi/view?usp=sharing"
+                  download
+                >
                   Download CV <Download className="ml-2 h-4 w-4" />
                 </a>
               </Button>
@@ -42,12 +45,9 @@ export function Hero() {
             className="relative w-full max-w-md mx-auto aspect-square overflow-hidden"
           >
             <img
-              src="https://replit.com/@Srkprasad9/professional-portfolio-react-showcase/raw/main/client/src/components/img/myImage.jpg"
+              src="https://unsplash.com/photos/7-FDF7CLxEg/download?force=true&w=640"
               alt="Professional headshot"
-              className="w-full h-full object-cover rounded-lg shadow-xl"
-              onError={(e) => {
-                e.currentTarget.src = "https://via.placeholder.com/400x400?text=Profile+Image";
-              }}
+              className="w-full h-full object-cover rounded-full shadow-xl"
             />
           </motion.div>
         </div>
